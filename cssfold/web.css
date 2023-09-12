@@ -1,0 +1,112 @@
+/* 		Tyler Ton
+		7/24/22
+		CS 125H - Lab 4 
+
+    Pale Silver #CBBBB0;
+    Kobe #762701;
+    Seal Brown #502813;
+    Smokey Black #1B0F0B;
+    Brown Sugar #B16235;
+
+        */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #CBBBB0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 90%;
+    max-width: 900px;
+    background-color: rgba(255, 255, 255, .3);
+    margin: 1em auto;
+    border: 2px solid #CBBBB0
+    
+}
+a:link {
+    color: #502813;
+    text-decoration: none;
+}
+a:visited {
+    color: #762701;
+}
+a:hover, a:focus {
+    color: #B16235;
+    font-style: italic;
+}
+p {
+    font-size: 1em;
+    line-height: 1.3em;
+    position: relative;
+}
+.shadow {
+    text-shadow: 1px 1px 1px #502813;
+}
+header {
+    padding: 1em 0;
+    border-bottom: 2px solid #CBBBB0;
+}
+header h1 {
+    font-size: 1.8em;
+    text-align: center;
+    font-variant: small-caps;
+}
+main figure ~ h2:first-of-type {
+    margin-top: 2em;
+}
+
+main h2 ~ h3 {
+    clear: left;
+}
+main {
+    padding: 1em;
+    margin:.5em
+}
+main h2, main h3 {
+    margin: .5em 0;
+    text-shadow: 1px 1px 2px #CBBBB0;
+}
+main h2 {
+    font-size: 140%;
+}
+main h3 {
+    font-size: 120%;  
+}
+main figure {
+    float:left;
+    width: 30%;
+    max-width: 250px;
+}
+main figure figcaption {
+    font-size: 70%;
+    line-height: 1.4em;
+}
+main figure img {
+    width: 100%;
+    margin: 1em 0 .5em
+}
+
+main ul {
+    margin: 1em 1em 0;
+}
+main ul li {
+    font-weight: bold;
+    margin: 0 1em .25em;
+}
+footer {
+    padding: 1em;
+    border-top: 2px solid #CBBBB0;
+}
+footer p{
+    color: #1B0F0B;
+    font-size: 70%;
+    margin-left: 1.5em;
+}
+
+
+
